@@ -1,0 +1,86 @@
+{
+    "description": "CHAOS CT data for nnunet",
+    "labels": {
+        "0": "background",
+        "1": "liver"
+    },
+    "licence": "",
+    "modality": {
+        "0": "CT"
+    },
+    "name": "CHAOS",
+    "numTest": 5,
+    "numTraining": 15,
+    "reference": "CHAOS data for nnunet",
+    "release": "0.0",
+    "tensorImageSize": "4D",
+    "test": [
+        "./imagesTs/case_00015.nii.gz",
+        "./imagesTs/case_00016.nii.gz",
+        "./imagesTs/case_00017.nii.gz",
+        "./imagesTs/case_00018.nii.gz",
+        "./imagesTs/case_00019.nii.gz"
+    ],
+    "training": [
+        {
+            "image": "./imagesTr/case_00000.nii.gz",
+            "label": "./labelsTr/case_00000.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00001.nii.gz",
+            "label": "./labelsTr/case_00001.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00002.nii.gz",
+            "label": "./labelsTr/case_00002.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00003.nii.gz",
+            "label": "./labelsTr/case_00003.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00004.nii.gz",
+            "label": "./labelsTr/case_00004.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00005.nii.gz",
+            "label": "./labelsTr/case_00005.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00006.nii.gz",
+            "label": "./labelsTr/case_00006.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00007.nii.gz",
+            "label": "./labelsTr/case_00007.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00008.nii.gz",
+            "label": "./labelsTr/case_00008.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00009.nii.gz",
+            "label": "./labelsTr/case_00009.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00010.nii.gz",
+            "label": "./labelsTr/case_00010.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00011.nii.gz",
+            "label": "./labelsTr/case_00011.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00012.nii.gz",
+            "label": "./labelsTr/case_00012.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00013.nii.gz",
+            "label": "./labelsTr/case_00013.nii.gz"
+        },
+        {
+            "image": "./imagesTr/case_00014.nii.gz",
+            "label": "./labelsTr/case_00014.nii.gz"
+        }
+    ]
+}
